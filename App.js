@@ -4,12 +4,10 @@ import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-
+      <View style={styles.mobilContainer}>
       <ImageBackground source={require("./assets/images/ModelS.jpeg")}
       style={styles.bg}
       />
-
-      <View style={styles.mobilContainer}>
         <View style={styles.judul}>
           <Text style={styles.mainJudul}>Model S</Text>
           <Text style={styles.subJudul}>Starting at $69,420</Text>
@@ -39,6 +37,7 @@ const styles = StyleSheet.create({
   },
   mainJudul: {
     fontSize: 30,
+    color: 'black',
     fontWeight: 'bold'
   },
   subJudul: {
@@ -47,6 +46,8 @@ const styles = StyleSheet.create({
   },
   bg: {
     width: '100%',
-    height: '100%'
+    height: '100%',
+    resizeMode: 'cover',
+    position: 'absolute'
   }
 });
