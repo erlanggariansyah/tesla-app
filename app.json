@@ -6,9 +6,11 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/images/logo.png",
+      "resizeMode": "native",
+      "backgroundColor": "#ffffff",
+      "width": 155,
+      "height": 20
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,7 +25,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.erlanggariansyah.Tesla"
     },
     "web": {
       "favicon": "./assets/favicon.png"

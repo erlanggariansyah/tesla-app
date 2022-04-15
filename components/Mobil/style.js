@@ -1,9 +1,9 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
   mobilContainer: {
     width: '100%',
-    height: '100%',
+    height: Dimensions.get('window').height
   },
   judul: {
     marginTop: '30%',
@@ -17,13 +17,18 @@ const styles = StyleSheet.create({
   },
   subJudul: {
     fontSize: 12,
-    color: 'grey'
+    color: '#171A20CC'
   },
   bg: {
     width: '100%',
     height: '100%',
     resizeMode: 'cover',
     position: 'absolute'
+  },
+  buttonContainer: {
+      position: 'absolute',
+      bottom: 50,
+      width: '100%'
   }
 });
 
