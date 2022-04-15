@@ -7,14 +7,14 @@ const MainButton = function (props) {
     return (
         <View style={styles.buttonContainer}>
             <CustomButton type="primer" 
-            content={"Order"} 
+            content={"Order Now"} 
             onPress={() => {
                 console.warn("You have pressed order button.");
             }}
             />
 
             <CustomButton type="sec" 
-            content={"Your Cart"} 
+            content={"Existing Inventory"} 
             onPress={() => {
                 console.warn("You have pressed cart button.");
             }}

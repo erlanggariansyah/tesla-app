@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
   judul: {
     marginTop: '30%',
     width: '100%',
-    alignItems: 'center'
+    alignItems: 'center',
+    position: 'relative'
   },
   mainJudul: {
     fontSize: 30,
